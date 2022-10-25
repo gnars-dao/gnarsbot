@@ -1,0 +1,61 @@
+{
+  "name": "@gnars/bots",
+  "private": true,
+  "version": "0.1.0",
+  "description": "gnars backend bots",
+  "author": "Gami",
+  "homepage": "https://gnars.wtf/",
+  "license": "GPL-3.0",
+  "main": "src/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon src/index.ts",
+    "format": "prettier 'src/**/*.ts' --write"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.15",
+    "@types/ioredis": "^4.26.4",
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^14.11.2",
+    "@types/ramda": "^0.28.15",
+    "@types/sharp": "^0.30.4",
+    "@types/tmp": "^0.2.1",
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "chai": "^4.2.0",
+    "eslint": "^7.28.0",
+    "eslint-config-prettier": "^8.3.0",
+    "husky": "^5.0.9",
+    "lerna": "^3.22.1",
+    "mocha": "^8.4.0",
+    "nodemon": "^2.0.7",
+    "pinst": "^2.1.6",
+    "prettier": "^2.3.0",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@nouns/contracts": "^0.1.3",
+    "axios": "^0.27.2",
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.2.0",
+    "ethers": "^5.6.8",
+    "graphql": "^15.3.0",
+    "graphql-request": "^3.1.0",
+    "ioredis": "^4.27.6",
+    "ramda": "^0.28.0",
+    "sharp": "^0.30.7",
+    "tmp": "^0.2.1",
+    "ts-try": "^0.2.0",
+    "twitter-api-v2": "^1.1.1",
+    "web3": "^1.7.4"
+  }
+}
